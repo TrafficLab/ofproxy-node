@@ -1,0 +1,33 @@
+{
+    "name" : "ofproxy-node",
+    "version" : "0.1.0",
+    "description" : "A module for proxying traffic between OpenFlow controllers and switches, while exposing messages as events.",
+    "keywords": ["OpenFlow", "JSON", "proxy"],
+    "author" : {
+        "name" : "Zoltán Lajos Kis",
+        "email" : "zoltan.lajos.kis@ericsson.com"
+    },
+    "maintainers" : [
+        {
+            "name" : "Zoltán Lajos Kis",
+            "email" : "zoltan.lajos.kis@ericsson.com"
+        }
+    ],
+    "licenses" : [
+        {"type" : "BSD"}
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/TrafficLab/ofproxy-node.git"
+        }
+    ],
+    "dependencies" : {
+        "oflib-node": "0.1.0"
+    },
+    "directories" : {
+        "lib" : "./lib"
+    },
+    "main" : "./index.js",
+    "engines" : {"node" : ">=0.4.12"}
+}
