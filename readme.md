@@ -47,8 +47,9 @@ Sent when either party sends a valid OpenFlow message.
 
     {
         "id" : Buffer,                   // identifier of the session this message was sent in
-        "at" : Date                      // timestamp of the event
-        "by" : "switch" | "controller"   // the party sending the message
+        "at" : Date,                     // timestamp of the event
+        "by" : "switch" | "controller",  // the party sending the message
+        "message" : Object,              // message object by oflib-node
         "warnings" : ["description"]     // (optional) if there were semantic warnings in the message, they are listed here
     }
 
