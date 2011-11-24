@@ -5,8 +5,6 @@ It acts as a proxy between controller and switches, and generates events from Op
 
 ## Dependencies
 
-node-uuid (https://github.com/broofa/node-uuid/)
-
 oflib-node (https://github.com/TrafficLab/oflib-node)
 
 ## Usage
